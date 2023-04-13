@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(203, 232, 255);
+}
+
+.container{
+    background: #19afd4;
+    border-radius: 4%;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+    font-family: cursive;
+    padding: 2%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 1rem;
+}
+
+.Temperature-icon{
+    font-size: xx-large;
+    padding-top: 0.3rem;
+}
+
+#celcius,#Fahrenheit,#kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+input{
+    flex: 5;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: gainsboro;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem 0 0 0.5rem;
+    padding: 0rem 0.5rem;
+}
+
+/* for chrome,safari, edge,opera */
+input::-webkit-outer-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.icon{
+    flex: 1;
+    height:3rem;
+    line-height: 3rem;
+    padding: 0rem 0.25rem;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.button{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.button button{
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background-color: rgb(97, 97, 97);
+    color: white;
+}
+
+@media and {
+
+}
